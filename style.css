@@ -121,3 +121,91 @@ margin-top:15px;
     width:15px;
     height:15px;
 }
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width:768px){
+
+.container{
+    width:95%;
+    padding:10px;
+}
+h1{
+    font-size:22px;
+    text-align:center;
+}
+
+/* Summary Cards */
+
+.summary{
+    flex-direction:column;
+}
+.card{
+    text-align:center;
+}
+
+/* Jobs Header */
+
+.jobs-header{
+    flex-direction:column;
+    gap:5px;
+}
+.jobs-header h2{
+    font-size:20px;
+}
+.jobs-header p{
+    font-size:14px;
+}
+
+/* Filters */
+
+.filters{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+.filters button{
+    flex:1;
+}
+
+/* Job Card */
+
+.job{
+    padding:15px;
+}
+.job h3{
+    font-size:18px;
+}
+.role{
+    font-size:14px;
+}
+.info{
+    font-size:13px;
+}
+.desc{
+    font-size:14px;
+}
+.actions{
+    display:flex;
+    gap:10px;
+    margin-top:10px;
+}
+.interview,
+.reject{
+    flex:1;
+    padding:8px;
+}
+.delete{
+    width:28px;
+    height:28px;
+    top:10px;
+    right:10px;
+}
+.delete img{
+    width:14px;
+    height:14px;
+}
+.no-jobs img{
+    width:70px;
+}
+}
