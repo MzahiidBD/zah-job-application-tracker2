@@ -10,7 +10,7 @@
     <div class="container">
         <h1>Job Application Tracker</h1>
   
-        <!-- Summary Cards -->
+        <!-- Summary/Dashboard Cards -->
   
         <div class="summary">
             <div class="card">
@@ -31,7 +31,7 @@
  
         <div class="jobs-header">
             <h2>Available Jobs</h2>
-            <p>8 jobs</p>
+            <p>0 jobs</p>
         </div>
 
         <!-- Filter Buttons -->
@@ -40,6 +40,14 @@
             <button class="active">All</button>
             <button>Interview</button>
             <button>Rejected</button>
+        </div>
+        
+        <!-- No Jobs sction -->
+
+        <div class="no-jobs" style="display:none; text-align:center; margin-top:40px;">
+            <img src="assets/jobs.png" width="80">
+            <h3>No Jobs Available</h3>
+            <p>Check back soon for new job opportunities!</p>
         </div>
 
         <!-- Job Cards -->
@@ -52,170 +60,97 @@
             <span class="status">NOT APPLIED</span>
             <p class="desc">Build cross-platform mobile applications using React Native.</p>
             <div class="actions">
-                <button class="interview">
-                    INTERVIEW
-                </button>
-                <button class="reject">
-                    REJECTED
-                </button>
+                <button class="interview">INTERVIEW</button>
+                <button class="reject">REJECTED</button>
             </div>
         </div>
         <div class="job">
             <button class="delete">Delete</button>
             <h3>WebFlow Agency</h3>
-            <p class="role">
-                Web Designer & Developer
-            </p>
-            <p class="info">
-                Los Angeles • Part-time • $80,000 - $120,000
-            </p>
+            <p class="role">Web Designer & Developer</p>
+            <p class="info">Los Angeles • Part-time • $80,000 - $120,000</p>
             <span class="status">NOT APPLIED</span>
-            <p class="desc">
-                Create stunning web experiences for clients.
-            </p>
+            <p class="desc">Create stunning web experiences for clients.</p>
             <div class="actions">
-                <button class="interview">
-                    INTERVIEW
-                </button>
-                <button class="reject">
-                    REJECTED
-                </button>
+                <button class="interview">INTERVIEW</button>
+                <button class="reject">REJECTED</button>
             </div>
         </div>
         <div class="job">
             <button class="delete">Delete</button>
             <h3>DataViz Solutions</h3>
-            <p class="role">
-                Data Visualization Specialist
-            </p>
-            <p class="info">
-                Boston • Full-time • $125,000 - $165,000
-            </p>
+            <p class="role">Data Visualization Specialist</p>
+            <p class="info">Boston • Full-time • $125,000 - $165,000</p>
             <span class="status">NOT APPLIED</span>
-            <p class="desc">
-                Transform complex data into visual insights.
-            </p>
+            <p class="desc">Transform complex data into visual insights.</p>
             <div class="actions">
-                <button class="interview">
-                    INTERVIEW
-                </button>
-                <button class="reject">
-                    REJECTED
-                </button>
+                <button class="interview">INTERVIEW</button>
+                <button class="reject">REJECTED</button>
             </div>
         </div>
         <div class="job">
             <button class="delete">Delete</button>
             <h3>CloudFirst Inc.</h3>
-            <p class="role">
-                Backend Developer
-            </p>
-            <p class="info">
-                Seattle • Full-time • $140,000 - $190,000
-            </p>
+            <p class="role">Backend Developer</p>
+            <p class="info">Seattle • Full-time • $140,000 - $190,000</p>
             <span class="status">NOT APPLIED</span>
-            <p class="desc">
-                Build scalable backend systems.
-            </p>
+            <p class="desc">Build scalable backend systems.</p>
             <div class="actions">
-                <button class="interview">
-                    INTERVIEW
-                </button>
-                <button class="reject">
-                    REJECTED
-                </button>
+                <button class="interview">INTERVIEW</button>
+                <button class="reject">REJECTED</button>
             </div>
         </div>
         <div class="job">
             <button class="delete">Delete</button>
             <h3>Innovation Labs</h3>
-            <p class="role">
-                UI/UX Engineer
-            </p>
-            <p class="info">
-                Austin • Full-time • $110,000 - $150,000
-            </p>
+            <p class="role">UI/UX Engineer</p>
+            <p class="info">Austin • Full-time • $110,000 - $150,000</p>
             <span class="status">NOT APPLIED</span>
-            <p class="desc">
-                Create beautiful user interfaces.
-            </p>
+            <p class="desc">Create beautiful user interfaces.</p>
             <div class="actions">
-                <button class="interview">
-                    INTERVIEW
-                </button>
-                <button class="reject">
-                    REJECTED
-                </button>
+                <button class="interview">INTERVIEW</button>
+                <button class="reject">REJECTED</button>
             </div>
         </div>
         <div class="job">
             <button class="delete">Delete</button>
             <h3>StartupXYZ</h3>
-            <p class="role">
-                Full Stack Engineer
-            </p>
-            <p class="info">
-                Remote • Full-time • $120,000 - $160,000
-            </p>
+            <p class="role">Full Stack Engineer</p>
+            <p class="info">Remote • Full-time • $120,000 - $160,000</p>
             <span class="status">NOT APPLIED</span>
-            <p class="desc">
-                Work on startup platform development.
-            </p>
+            <p class="desc">Work on startup platform development.</p>
             <div class="actions">
-                <button class="interview">
-                    INTERVIEW
-                </button>
-                <button class="reject">
-                    REJECTED
-                </button>
+                <button class="interview">INTERVIEW</button>
+                <button class="reject">REJECTED</button>
             </div>
         </div>
         <div class="job">
             <button class="delete">Delete</button>
             <h3>MegaCorp Solutions</h3>
-            <p class="role">
-                JavaScript Developer
-            </p>
-            <p class="info">
-                New York • Full-time • $130,000 - $170,000
-            </p>
+            <p class="role">JavaScript Developer</p>
+            <p class="info">New York • Full-time • $130,000 - $170,000</p>
             <span class="status">NOT APPLIED</span>
-            <p class="desc">
-                Develop enterprise applications.
-            </p>
+            <p class="desc">Develop enterprise applications</p>
             <div class="actions">
-                <button class="interview">
-                    INTERVIEW
-                </button>
-                <button class="reject">
-                    REJECTED
-                </button>
+                <button class="interview">INTERVIEW</button>
+                <button class="reject">REJECTED</button>
             </div>
         </div>
-
         <div class="job">
             <button class="delete">Delete</button>
             <h3>TechCorp Industries</h3>
-            <p class="role">
-                Senior Frontend Developer
-            </p>
-            <p class="info">
-                San Francisco • Full-time • $130,000 - $175,000
-            </p>
+            <p class="role">Senior Frontend Developer</p>
+            <p class="info">San Francisco • Full-time • $130,000 - $175,000</p>
             <span class="status">NOT APPLIED</span>
-            <p class="desc">
-                Build scalable web applications.
-            </p>
+            <p class="desc">Build scalable web applications.</p>
             <div class="actions">
-                <button class="interview">
-                    INTERVIEW
-                </button>
-                <button class="reject">
-                    REJECTED
-                </button>
+                <button class="interview">INTERVIEW</button>
+                <button class="reject">REJECTED</button>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
